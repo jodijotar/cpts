@@ -20,4 +20,4 @@ user@remotehost's password: *******
 linenum.sh
 ```
 
-[[using Base64 to bypass firewalls]]
+[[base64 trick]]
