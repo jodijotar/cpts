@@ -1,3 +1,7 @@
+update
+```
+nmap --script-updatedb
+```
 
 category
 	auth - determination of authentication credentials
@@ -70,6 +74,11 @@ PORT   STATE SERVICE
 |_banner: 220 inlane ESMTP Postfix (Ubuntu)
 |_smtp-commands: inlane, PIPELINING, SIZE 10240000, VRFY, ETRN, STARTTLS, ENHANCEDSTATUSCODES, 8BITMIME, DSN, SMTPUTF8,
 MAC Address: DE:AD:00:00:BE:EF (Intel Corporate)
+```
+
+nmap FTP scripts
+```
+find / -type f -name ftp* 2>/dev/null | grep scripts
 ```
 
 more information about NSE: 
