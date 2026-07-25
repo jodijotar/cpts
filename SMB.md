@@ -1,3 +1,5 @@
+#services 
+
 SMB (server message block) commands are transmitted over Samba to an older NetBIOS service, connections typically occur over TCP ports `137`, `138`, and `139`. In contrast, CIFS (common internet file system) operates over TCP port `445` exclusively.
 
 ---- Manual enumeration
