@@ -8,31 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "76c29875495669a4",
+            "id": "ab6b96b702d4a10b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NFS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "NFS"
-            }
-          },
-          {
-            "id": "7245fd57573b7e35",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "base64 trick.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "base64 trick"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -199,8 +181,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "76c29875495669a4",
+  "active": "ab6b96b702d4a10b",
   "lastOpenFiles": [
+    "DNS.md",
     "base64 trick.md",
     "NFS.md",
     "FTP.md",
