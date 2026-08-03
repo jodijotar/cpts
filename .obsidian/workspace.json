@@ -11,24 +11,28 @@
             "id": "ab6b96b702d4a10b",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "6b6be3b554278499",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "SMTP.md",
+                "file": "DNS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SMTP"
+              "title": "DNS"
+            }
+          },
+          {
+            "id": "d9173a4351d58fff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IMAP - POP3.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "IMAP - POP3"
             }
           }
         ],
@@ -196,10 +200,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6b6be3b554278499",
+  "active": "d9173a4351d58fff",
   "lastOpenFiles": [
-    "SMTP.md",
     "DNS.md",
+    "IMAP - POP3.md",
+    "SMTP.md",
     "base64 trick.md",
     "NFS.md",
     "FTP.md",
