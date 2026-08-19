@@ -11,7 +11,7 @@ smbclient -N -L //<ip>
 
 connecting to the share
 ```
-smbclient //<ip>/<accessible_share>
+smbclient //<ip>/<accessible_share> -U 'user'
 ```
 
 RPC client - doc: https://www.samba.org/samba/docs/current/man-html/rpcclient.1.html
@@ -32,7 +32,7 @@ netsharegetinfo <accessible_share>
 ---- Automated enumeration
 enumeration tools
 ```
-https://github.com/fortra/impacket/blob/master/examples/samrdump.py
+git clone https://github.com/fortra/impacket/blob/master/examples/samrdump.py
 ```
 ```
 smbmap -H <ip>
