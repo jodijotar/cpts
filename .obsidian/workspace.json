@@ -4,35 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "69b82e56239d4ec7",
+        "id": "09eabcd67c8654ba",
         "type": "tabs",
         "children": [
           {
-            "id": "d049e7f9403b6473",
+            "id": "4f13ae1b0fce5063",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "file transfers/linux file transfer methods.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "linux file transfer methods"
-            }
-          },
-          {
-            "id": "77fed8dcfa66f8f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "file transfers/FTP windows.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "FTP windows"
+              "title": "New tab"
             }
           }
         ]
@@ -199,19 +181,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d049e7f9403b6473",
+  "active": "4f36fa94916dc22c",
   "lastOpenFiles": [
-    "file transfers/powershell web uploads.md",
-    "file transfers/powershell download cradles.md",
-    "file transfers/windows file transfer methods.md",
+    "file transfers/Encryption on windows.md",
+    "file transfers/python.md",
     "file transfers/linux file transfer methods.md",
+    "file transfers/RDP.md",
+    "file transfers/powershell web uploads.md",
+    "file transfers/netcat and ncat.md",
+    "file transfers/FTP windows.md",
+    "FTP.md",
+    "file transfers/php.md",
+    "file transfers/WebDav server.md",
+    "file transfers/windows file transfer methods.md",
+    "file transfers/javascript.md",
+    "file transfers/VBScript.md",
+    "file transfers/powershell download cradles.md",
     "file transfers/base64 trick.md",
     "footprinting/windows remote management protocols.md",
-    "file transfers/FTP windows.md",
     "file transfers/SMB  windows.md",
-    "Untitled.md",
-    "file transfers/WebDav server.md",
-    "FTP.md",
     "file transfers",
     "privilege scalation.md",
     "footprinting/Tcpdump.md",
@@ -222,12 +210,6 @@
     "footprinting/R-services.md",
     "footprinting/Oracle TNS.md",
     "footprinting/nmap scripting engine (NSE).md",
-    "footprinting/nmap.md",
-    "footprinting/NFS.md",
-    "footprinting/Mysql.md",
-    "footprinting/MSSQL.md",
-    "footprinting/linux remote management protocols.md",
-    "footprinting/IPMI.md",
     "footprinting"
   ]
 }

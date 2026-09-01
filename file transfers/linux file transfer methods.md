@@ -11,11 +11,6 @@ wget
 wget https://raw.githubusercontent.com/rebootuser/LinEnum/master/LinEnum.sh -O /tmp/LinEnum.sh
 ```
 ---
-upload server
-```
-sudo python3 -m pip install --user uploadserver
-```
-
 https
 ```
 openssl req -x509 -out server.pem -keyout server.pem -newkey rsa:2048 -nodes -sha256 -subj '/CN=server'
@@ -36,6 +31,7 @@ python3
 ```
 python3 -m http.server
 ```
+more info about [[python]]
 
 python2.7
 ```
@@ -46,6 +42,12 @@ ruby
 ```
 ruby -run -ehttpd . -p8000
 ```
+
+php
+```
+> php -S localhost:8000
+```
+more info about [[php]]
 
 ---
 ssh
