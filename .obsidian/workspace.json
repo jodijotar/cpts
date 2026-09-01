@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "09eabcd67c8654ba",
+        "id": "5df4985ddbe11595",
         "type": "tabs",
         "children": [
           {
-            "id": "4f13ae1b0fce5063",
+            "id": "5625d5b1a8899c1e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -183,6 +183,8 @@
   },
   "active": "4f36fa94916dc22c",
   "lastOpenFiles": [
+    "file transfers/Untitled.md",
+    "file transfers/encryption.md",
     "file transfers/Encryption on windows.md",
     "file transfers/python.md",
     "file transfers/linux file transfer methods.md",
@@ -208,8 +210,6 @@
     "footprinting/SMB.md",
     "footprinting/Rsync.md",
     "footprinting/R-services.md",
-    "footprinting/Oracle TNS.md",
-    "footprinting/nmap scripting engine (NSE).md",
     "footprinting"
   ]
 }
