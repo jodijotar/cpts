@@ -11,10 +11,14 @@
             "id": "5625d5b1a8899c1e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "file transfers/living off the land binary.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "living off the land binary"
             }
           }
         ]
@@ -181,9 +185,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4f36fa94916dc22c",
+  "active": "5625d5b1a8899c1e",
   "lastOpenFiles": [
-    "file transfers/Untitled.md",
+    "file transfers/WebDav server.md",
+    "file transfers/living off the land binary.md",
     "file transfers/encryption.md",
     "file transfers/Encryption on windows.md",
     "file transfers/python.md",
@@ -194,7 +199,6 @@
     "file transfers/FTP windows.md",
     "FTP.md",
     "file transfers/php.md",
-    "file transfers/WebDav server.md",
     "file transfers/windows file transfer methods.md",
     "file transfers/javascript.md",
     "file transfers/VBScript.md",

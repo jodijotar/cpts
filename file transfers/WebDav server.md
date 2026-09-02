@@ -2,12 +2,12 @@ An alternative is to run SMB over HTTP with `WebDav`. `WebDAV` [(RFC 4918)](http
 
 set up our WebDav server, we need to install two Python modules, `wsgidav` and `cheroot` (you can read more about this implementation here: [wsgidav github](https://github.com/mar10/wsgidav)).
 ```
-sudo pip3 install wsgidav cheroot
+pip3 install wsgidav cheroot
 ```
 
 usage
 ```
-sudo wsgidav --host=0.0.0.0 --port=80 --root=/tmp --auth=anonymous 
+wsgidav --host=0.0.0.0 --port=80 --root=/tmp --auth=anonymous 
 ```
 
 connecting to the Webdav Share
