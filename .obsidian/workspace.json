@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "file transfers/living off the land binary.md",
+                "file": "shells and payloads/mkfifo - what is a named pipe.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "living off the land binary"
+              "title": "mkfifo - what is a named pipe"
+            }
+          },
+          {
+            "id": "80e8c14824ea17ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "shells and payloads/shell payload - concepts deep dive.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "shell payload - concepts deep dive"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,10 +200,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5625d5b1a8899c1e",
+  "active": "80e8c14824ea17ad",
   "lastOpenFiles": [
-    "file transfers/WebDav server.md",
+    "shells and payloads/mkfifo - what is a named pipe.md",
+    "shells and payloads/special file.md",
+    "shells and payloads/shell payload - concepts deep dive.md",
+    "shells and payloads/bash.md",
+    "shells and payloads/bind shell.md",
+    "shells and payloads/reverse shell.md",
+    "shells and payloads/bypassing waf - OS commands.md",
+    "shells and payloads/staying away from disk.md",
+    "privilege scalation.md",
     "file transfers/living off the land binary.md",
+    "shells and payloads",
+    "file transfers/WebDav server.md",
     "file transfers/encryption.md",
     "file transfers/Encryption on windows.md",
     "file transfers/python.md",
@@ -204,16 +229,7 @@
     "file transfers/VBScript.md",
     "file transfers/powershell download cradles.md",
     "file transfers/base64 trick.md",
-    "footprinting/windows remote management protocols.md",
-    "file transfers/SMB  windows.md",
     "file transfers",
-    "privilege scalation.md",
-    "footprinting/Tcpdump.md",
-    "footprinting/SNMP.md",
-    "footprinting/SMTP.md",
-    "footprinting/SMB.md",
-    "footprinting/Rsync.md",
-    "footprinting/R-services.md",
     "footprinting"
   ]
 }
