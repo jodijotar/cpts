@@ -23,6 +23,11 @@ command chaining
 	ampersand ( & )
 		runs a command in the background allowing us to use the terminal without waiting the command finish, after the program runs the output is printed on the terminal
 
+spawn an interactive shell with python
+```
+python3 -c 'import pty; pty.spawn("/bin/bash")'
+```
+
 [[bypassing waf - OS commands]]
 [[staying away from disk]]
 
