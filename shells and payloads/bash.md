@@ -23,10 +23,38 @@ command chaining
 	ampersand ( & )
 		runs a command in the background allowing us to use the terminal without waiting the command finish, after the program runs the output is printed on the terminal
 
-spawn an interactive shell with python
+---
+### getting interactive shells
+
+spawn a tty shell with python
 ```
 python3 -c 'import pty; pty.spawn("/bin/bash")'
 ```
+
+AWK - c like pattern scanning and processing language present on most unix/linux systems
+```
+awk 'BEGIN {system("/bin/sh")}'
+```
+
+find command
+```
+find . -exec /bin/sh \; -quit
+```
+
+vim
+```
+vim -c ':!/bin/sh'
+```
+
+---
+
+check sudo permissions
+```
+sudo -l
+```
+
+---
+### related notes
 
 [[bypassing waf - OS commands]]
 [[staying away from disk]]

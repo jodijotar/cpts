@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3d8584b20197a9c9",
+            "id": "740ecc88ea7c243d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "shells and payloads/prominent windows exploits.md",
+                "file": "shells and payloads/web shells.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "prominent windows exploits"
+              "title": "web shells"
             }
           }
         ]
@@ -185,37 +185,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3d8584b20197a9c9",
+  "active": "740ecc88ea7c243d",
   "lastOpenFiles": [
+    "shells and payloads/file upload vulnerabilities.md",
+    "shells and payloads/web shells.md",
+    "shells and payloads/bash.md",
+    "shells and payloads/firewalls and AV.md",
     "shells and payloads/infiltrating windows.md",
+    "shells and payloads/mkfifo - what is a named pipe.md",
+    "shells and payloads/powershell.md",
+    "shells and payloads/prominent windows exploits.md",
+    "shells and payloads/reverse shell.md",
+    "shells and payloads/bypassing waf - OS commands.md",
+    "shells and payloads/bash shell payload - concepts deep dive.md",
+    "shells and payloads/infiltrating linux.md",
+    "metasploit.md",
+    "footprinting/NFS.md",
+    "footprinting/R-services.md",
+    "footprinting/linux remote management protocols.md",
+    "footprinting/Rsync.md",
+    "footprinting/FTP.md",
     "footprinting/SMB.md",
     "footprinting/nmap.md",
-    "shells and payloads/powershell.md",
-    "shells and payloads/bash.md",
-    "shells and payloads/prominent windows exploits.md",
     "gaps.txt",
     "Untitled",
-    "shells and payloads/firewalls and AV.md",
-    "shells and payloads/reverse shell.md",
-    "shells and payloads/bash shell payload - concepts deep dive.md",
     "shells and payloads/bind shell.md",
-    "shells and payloads/mkfifo - what is a named pipe.md",
-    "shells and payloads/bypassing waf - OS commands.md",
     "shells and payloads/special file.md",
     "shells and payloads/staying away from disk.md",
     "privilege scalation.md",
     "file transfers/living off the land binary.md",
     "shells and payloads",
     "file transfers/WebDav server.md",
-    "file transfers/encryption.md",
-    "file transfers/Encryption on windows.md",
-    "file transfers/python.md",
-    "file transfers/linux file transfer methods.md",
-    "file transfers/RDP.md",
-    "file transfers/powershell web uploads.md",
-    "file transfers/netcat and ncat.md",
-    "file transfers/FTP windows.md",
-    "FTP.md",
     "file transfers",
     "footprinting"
   ]
