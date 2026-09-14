@@ -24,3 +24,6 @@ attack machine
 ```
 nc -nv <remote_host_ip> 7777
 ```
+
+---
+[[backdoors]]
