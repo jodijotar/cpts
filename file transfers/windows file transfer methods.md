@@ -1,6 +1,6 @@
 
 [[powershell download cradles]]
-[[SMB  windows]]
+[[file transfers/SMB]]
 [[powershell web uploads]]
 [[FTP windows]]
 [[base64 trick]]

