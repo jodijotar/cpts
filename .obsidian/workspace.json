@@ -8,20 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d018c9caec25c779",
+            "id": "2524ed993f8e8d9f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "footprinting/windows remote management protocols.md",
+                "file": "password cracking/HKLM - SAM, SYSTEM and SECURITY.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "windows remote management protocols"
+              "title": "HKLM - SAM, SYSTEM and SECURITY"
+            }
+          },
+          {
+            "id": "6c1559d4694ec1d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "password cracking/remote dumping & LSA secrets.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "remote dumping & LSA secrets"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -55,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "winrm",
+                "query": "rock",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,12 +91,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 296.5
   },
   "right": {
     "id": "88614aa8bf3231b0",
@@ -186,36 +200,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d018c9caec25c779",
+  "active": "6c1559d4694ec1d4",
   "lastOpenFiles": [
-    "password cracking/network services - password attacks.md",
-    "footprinting/windows remote management protocols.md",
+    "file transfers/SMB  windows.md",
+    "password cracking/remote dumping & LSA secrets.md",
+    "password cracking/HKLM - SAM, SYSTEM and SECURITY.md",
+    "file transfers/RDP.md",
+    "file transfers/transfering files.md",
+    "shells and payloads/prominent windows exploits.md",
     "password cracking/cracking encrypted files.md",
+    "password cracking/custom rules.md",
+    "password cracking/network services - password attacks.md",
+    "metasploit/exploit code.md",
+    "metasploit/metasploit index.md",
+    "metasploit/meterpreter.md",
+    "metasploit/msfvenom.md",
+    "metasploit/privilege escalation.md",
+    "metasploit/generic.md",
+    "shells and payloads/infiltrating windows.md",
+    "privilege scalation.md",
+    "footprinting/windows remote management protocols.md",
+    "footprinting/R-services.md",
+    "file transfers/windows file transfer methods.md",
     "password cracking/cracking encrypted ssh keys.md",
     "post exploitation/hunting for ssh keys.md",
-    "password cracking/custom rules.md",
     "password cracking/rules by OSINT.md",
     "password cracking/custom wordlists.md",
     "password cracking/hashcat.md",
     "password cracking/data breaches.md",
-    "metasploit/metasploit index.md",
     "password cracking",
-    "metasploit/firewall_AV_IDS_IPS.md",
-    "metasploit/exploit code.md",
-    "metasploit/archiving - AV bypass.md",
-    "metasploit/msfvenom.md",
-    "metasploit/privilege escalation.md",
-    "metasploit/meterpreter.md",
-    "metasploit/generic.md",
-    "metasploit/running nmap inside msf.md",
-    "metasploit/database.md",
-    "privilege scalation.md",
-    "footprinting/nmap.md",
     "metasploit",
-    "shells and payloads/infiltrating windows.md",
-    "shells and payloads/reverse shell.md",
-    "shells and payloads/socks5 tunnel.md",
-    "file transfers/linux file transfer methods.md",
     "post exploitation",
     "gaps.txt",
     "shells and payloads",
